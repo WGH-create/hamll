@@ -1,0 +1,19 @@
+# ============================================================
+# 本地环境变量模板（application-local.yaml）
+#
+# 使用方式：将本文件复制到需要启动的微服务模块的
+#   src/main/resources/ 目录下，并重命名为 application-local.yaml
+# 例如：
+#   item-service/src/main/resources/application-local.yaml
+#   cart-service/src/main/resources/application-local.yaml
+#   user-service/src/main/resources/application-local.yaml
+#   trade-service/src/main/resources/application-local.yaml
+#   pay-service/src/main/resources/application-local.yaml
+#   hm-service/src/main/resources/application-local.yaml
+#
+# 说明：真实的 application-local.yaml 已被 .gitignore 忽略，请勿提交。
+# ============================================================
+hm:
+  db:
+    host: 192.168.100.128   # 修改为你自己的虚拟机 IP 地址
+    pw: 123                 # 修改为 Docker 中 MySQL 的密码

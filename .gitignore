@@ -1,0 +1,73 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+### IDE ###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+hs_err_pid*
+replay_pid*
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### 环境配置文件（含数据库/密钥等敏感信息，请勿上传） ###
+# 如需上传请删除下面几行
+**/application-local.yaml
+**/application-dev.yaml
+
+### 证书 / 密钥 ###
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+### Nginx 运行产物（保留 conf/html，忽略可执行文件与运行日志） ###
+hmall-nginx/nginx.exe
+hmall-nginx/logs/
+hmall-nginx/temp/
+hmall-nginx/*.pid
+
+### 操作系统 ###
+.DS_Store
+Thumbs.db
+desktop.ini
